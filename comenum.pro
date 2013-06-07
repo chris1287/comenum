@@ -23,7 +23,7 @@ FORMS    += dialog.ui
 
 OTHER_FILES +=
 
-include(../qextserialport/src/qextserialport.pri)
+include(./qextserialport/src/qextserialport.pri)
 
 RESOURCES += \
     resources.qrc
