@@ -41,7 +41,10 @@ void Dialog::update_ports()
         }
     }
 
-    m_ports_model->setStringList(s);
+    if(m_ports_model->stringList() != s)
+    {
+        m_ports_model->setStringList(s);
+    }
 }
 
 void Dialog::mousePressEvent(QMouseEvent *event)
