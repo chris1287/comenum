@@ -3,4 +3,7 @@
         <file>ico/port-parrellel.png</file>
         <file>ico/application-exit.png</file>
     </qresource>
+    <qresource prefix="/qss">
+        <file>qss/darkorange.qss</file>
+    </qresource>
 </RCC>
