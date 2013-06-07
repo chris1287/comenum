@@ -30,7 +30,7 @@ Dialog::~Dialog()
 
 void Dialog::update_ports()
 {
-    auto ports = QextSerialEnumerator::getPorts();
+    auto        ports = QextSerialEnumerator::getPorts();
     QStringList s;
 
     for (auto info : ports)

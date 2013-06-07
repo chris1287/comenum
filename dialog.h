@@ -22,11 +22,11 @@ public:
     ~Dialog();
     
 private:
-    Ui::Dialog *ui;
+    Ui::Dialog       *ui;
     QStringListModel *m_ports_model;
-    QTimer *m_timer;
-    const int m_timeout;
-    QPoint m_drag_position;
+    QTimer           *m_timer;
+    const int         m_timeout;
+    QPoint            m_drag_position;
 
 private slots:
     void update_ports();
