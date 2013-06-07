@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/ico">
         <file>ico/port-parrellel.png</file>
+        <file>ico/application-exit.png</file>
     </qresource>
 </RCC>
