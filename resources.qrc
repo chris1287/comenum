@@ -6,4 +6,7 @@
     <qresource prefix="/qss">
         <file>qss/darkorange.qss</file>
     </qresource>
+    <qresource prefix="/sound">
+        <file>sound/alert.wav</file>
+    </qresource>
 </RCC>
