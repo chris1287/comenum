@@ -8,5 +8,6 @@
     </qresource>
     <qresource prefix="/sound">
         <file>sound/alert.wav</file>
+        <file>sound/plug.wav</file>
     </qresource>
 </RCC>

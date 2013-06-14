@@ -6,6 +6,7 @@
 #include <QStringList>
 #include <QStringListModel>
 #include <QSound>
+#include <QPainter>
 
 Dialog::Dialog(QWidget *parent) :
     QDialog(parent, Qt::FramelessWindowHint | Qt::WindowSystemMenuHint),
@@ -45,7 +46,7 @@ void Dialog::update_ports()
     if(m_ports_model->stringList() != s)
     {
         m_ports_model->setStringList(s);
-        QSound::play(":/sound/sound/alert.wav");
+        QSound::play(":/sound/sound/plug.wav");
     }
 }
 
